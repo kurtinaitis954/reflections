@@ -1,0 +1,27 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+-------------
+Repository - Group of files that we would commit at once
+A commit is a snapshot of all the files in a repository
+git log --stats (nos da estadísticas de los cambios que se han realizado)
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+git clone https://github.com/udacity/asteroids.git
+git log
+git diff file1 file2
+
+How can you use the commands git log and git diff to view the history of files?
+HEAD is what Git calls the commit you are currently on. You can “detach” the HEAD by switching to a previous commit, which we’ll see in the next video. 
+Octopus is a strategy Git uses to combine many different versions of code together. 
+
+
+git checkout [file name]  (para comprobar un commit antiguo)
+
+How might using version control make you more confident to make changes that could break something?
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
